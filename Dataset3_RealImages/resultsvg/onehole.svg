@@ -1,0 +1,21 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="186px" height="221px" version="1.1"
+ xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<ellipse transform="translate(101.073376 117.132805) rotate(-27.822960)" rx="78.480634" ry="58.147418" stroke="red" fill="none" stroke-width="1" />
+<path d="M 120.313921,61.090163 A84.181560,84.181560 0.000000 0,1 31.022774,122.476487" fill="none" stroke ="red" stroke-width="1" />
+<line x1="127.337034" y1="63.756713" x2="121.861290" y2="81.610805"  fill="none" stroke ="blue" stroke-width="1" />
+<line x1="121.189356" y1="81.915702" x2="116.142702" y2="90.284539"  fill="none" stroke ="blue" stroke-width="1" />
+<line x1="117.210413" y1="85.811689" x2="124.756432" y2="68.612508"  fill="none" stroke ="blue" stroke-width="1" />
+<line x1="30.463267" y1="104.783086" x2="12.506102" y2="102.452976"  fill="none" stroke ="blue" stroke-width="1" />
+<line x1="13.457893" y1="100.929190" x2="31.480639" y2="102.697347"  fill="none" stroke ="blue" stroke-width="1" />
+<line x1="153.626455" y1="24.544566" x2="143.117068" y2="54.365046"  fill="none" stroke ="blue" stroke-width="1" />
+<line x1="83.694185" y1="0.243573" x2="76.312489" y2="23.440330"  fill="none" stroke ="blue" stroke-width="1" />
+<line x1="72.546509" y1="124.664539" x2="60.649104" y2="128.027497"  fill="none" stroke ="blue" stroke-width="1" />
+<line x1="60.596542" y1="125.831830" x2="72.464769" y2="122.378907"  fill="none" stroke ="blue" stroke-width="1" />
+<line x1="111.661089" y1="33.534805" x2="109.301215" y2="44.457050"  fill="none" stroke ="blue" stroke-width="1" />
+<line x1="73.567603" y1="31.521082" x2="66.126187" y2="55.383427"  fill="none" stroke ="blue" stroke-width="1" />
+<line x1="36.483571" y1="26.494661" x2="23.483984" y2="66.494795"  fill="none" stroke ="blue" stroke-width="1" />
+<line x1="4.965596" y1="0.343537" x2="0.525867" y2="15.507573"  fill="none" stroke ="blue" stroke-width="1" />
+</svg>
