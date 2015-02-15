@@ -1,0 +1,25 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="52px" height="55px" version="1.1"
+ xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<ellipse transform="translate(26.258611 26.274219) rotate(-52.340208)" rx="11.552337" ry="10.013169" stroke="red" fill="none" stroke-width="1" />
+<ellipse transform="translate(26.285169 26.328368) rotate(-50.983955)" rx="5.412530" ry="4.742605" stroke="red" fill="none" stroke-width="1" />
+<ellipse transform="translate(26.298502 26.263286) rotate(-52.592238)" rx="9.436660" ry="8.286073" stroke="red" fill="none" stroke-width="1" />
+<ellipse transform="translate(26.301236 26.262626) rotate(-53.389718)" rx="7.518965" ry="6.511260" stroke="red" fill="none" stroke-width="1" />
+<ellipse transform="translate(26.070094 26.206508) rotate(-55.979979)" rx="15.891114" ry="13.748200" stroke="red" fill="none" stroke-width="1" />
+<ellipse transform="translate(26.227146 26.290537) rotate(-48.322527)" rx="13.738962" ry="12.084122" stroke="red" fill="none" stroke-width="1" />
+<line x1="44.379348" y1="39.565190" x2="42.459430" y2="6.560531"  fill="none" stroke ="blue" stroke-width="1" />
+<line x1="6.981903" y1="10.350195" x2="10.634901" y2="46.486363"  fill="none" stroke ="blue" stroke-width="1" />
+<line x1="11.400710" y1="48.059994" x2="43.567986" y2="40.801282"  fill="none" stroke ="blue" stroke-width="1" />
+<line x1="21.506833" y1="10.522841" x2="9.119679" y2="14.228767"  fill="none" stroke ="blue" stroke-width="1" />
+<line x1="41.680901" y1="6.486772" x2="20.654271" y2="10.341510"  fill="none" stroke ="blue" stroke-width="1" />
+<line x1="6.509366" y1="30.546885" x2="0.163317" y2="31.814605"  fill="none" stroke ="blue" stroke-width="1" />
+<line x1="45.503422" y1="46.524375" x2="50.544453" y2="45.816617"  fill="none" stroke ="blue" stroke-width="1" />
+<line x1="50.687701" y1="43.363015" x2="37.651861" y2="46.198232"  fill="none" stroke ="blue" stroke-width="1" />
+<line x1="46.267971" y1="53.628214" x2="45.731783" y2="48.475879"  fill="none" stroke ="blue" stroke-width="1" />
+<line x1="45.347301" y1="26.723238" x2="50.539804" y2="25.702478"  fill="none" stroke ="blue" stroke-width="1" />
+<line x1="4.774252" y1="0.477932" x2="5.580183" y2="10.493548"  fill="none" stroke ="blue" stroke-width="1" />
+<line x1="37.295220" y1="46.472747" x2="37.537186" y2="53.532997"  fill="none" stroke ="blue" stroke-width="1" />
+<line x1="3.696797" y1="12.478970" x2="2.417675" y2="0.508797"  fill="none" stroke ="blue" stroke-width="1" />
+</svg>

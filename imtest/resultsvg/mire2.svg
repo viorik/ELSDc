@@ -1,0 +1,22 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="76px" height="54px" version="1.1"
+ xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<ellipse transform="translate(31.440000 23.298613) rotate(-7.195651)" rx="15.723021" ry="9.063451" stroke="red" fill="none" stroke-width="1" />
+<path d="M 24.891493,30.405928 A12.895966,7.564027 -6.943994 1,1 40.785898,17.384017" fill="none" stroke ="red" stroke-width="1" />
+<path d="M 41.600059,17.490578 A14.623841,8.347800 -1.554412 0,1 37.194488,29.551901" fill="none" stroke ="red" stroke-width="1" />
+<ellipse transform="translate(31.344430 23.504223) rotate(-7.428572)" rx="21.382688" ry="12.449869" stroke="red" fill="none" stroke-width="1" />
+<ellipse transform="translate(31.462690 23.184444) rotate(-7.143681)" rx="8.306122" ry="4.987533" stroke="red" fill="none" stroke-width="1" />
+<path d="M 35.167119,33.705269 A18.747836,11.207172 -9.495385 0,1 20.887687,14.780162" fill="none" stroke ="red" stroke-width="1" />
+<path d="M 39.858492,12.596204 A18.266726,11.044443 -5.546883 0,1 37.089533,33.375636" fill="none" stroke ="red" stroke-width="1" />
+<path d="M 37.024283,18.202111 A4.962694,4.408657 -38.223141 0,1 38.430050,27.051723" fill="none" stroke ="red" stroke-width="1" />
+<path d="M 26.024689,28.879568 A7.177410,5.263212 -4.244321 0,1 24.648730,19.347329" fill="none" stroke ="red" stroke-width="1" />
+<line x1="8.611211" y1="43.176353" x2="60.523117" y2="34.640590"  fill="none" stroke ="blue" stroke-width="1" />
+<line x1="58.518734" y1="37.612524" x2="24.463765" y2="43.282362"  fill="none" stroke ="blue" stroke-width="1" />
+<line x1="4.563060" y1="14.489002" x2="9.140835" y2="40.737044"  fill="none" stroke ="blue" stroke-width="1" />
+<line x1="24.311056" y1="43.330601" x2="10.509780" y2="45.560528"  fill="none" stroke ="blue" stroke-width="1" />
+<line x1="8.007999" y1="46.410127" x2="3.941013" y2="23.421977"  fill="none" stroke ="blue" stroke-width="1" />
+<line x1="59.171902" y1="32.579882" x2="52.630354" y2="5.711732"  fill="none" stroke ="blue" stroke-width="1" />
+<line x1="51.589044" y1="6.068760" x2="4.643779" y2="13.418382"  fill="none" stroke ="blue" stroke-width="1" />
+</svg>

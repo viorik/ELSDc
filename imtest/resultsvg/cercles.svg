@@ -1,0 +1,22 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="508px" height="390px" version="1.1"
+ xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<ellipse transform="translate(342.121428 288.674234) rotate(-88.499877)" rx="24.500441" ry="24.219114" stroke="red" fill="none" stroke-width="1" />
+<ellipse cx="402.626007" cy="288.727999" rx="24.199649" ry="24.199649" stroke="red" stroke-width="1" fill="none" /> 
+<ellipse transform="translate(98.646046 286.994423) rotate(78.273374)" rx="24.679523" ry="24.523572" stroke="red" fill="none" stroke-width="1" />
+<ellipse transform="translate(281.335753 288.218318) rotate(-78.514431)" rx="24.542825" ry="24.523027" stroke="red" fill="none" stroke-width="1" />
+<ellipse cx="110.017991" cy="100.644372" rx="39.633076" ry="39.633076" stroke="red" stroke-width="1" fill="none" /> 
+<ellipse cx="220.628672" cy="288.300308" rx="24.575141" ry="24.575141" stroke="red" stroke-width="1" fill="none" /> 
+<ellipse cx="108.447155" cy="200.070113" rx="39.418490" ry="39.418490" stroke="red" stroke-width="1" fill="none" /> 
+<ellipse transform="translate(203.883993 201.147444) rotate(5.812717)" rx="39.426973" ry="39.299196" stroke="red" fill="none" stroke-width="1" />
+<ellipse transform="translate(300.011140 102.642560) rotate(32.867226)" rx="39.523521" ry="38.870940" stroke="red" fill="none" stroke-width="1" />
+<ellipse cx="205.097818" cy="101.663462" rx="39.382755" ry="39.382755" stroke="red" stroke-width="1" fill="none" /> 
+<ellipse transform="translate(393.502178 104.126748) rotate(43.845409)" rx="39.313751" ry="38.335957" stroke="red" fill="none" stroke-width="1" />
+<ellipse cx="393.897905" cy="203.294451" rx="39.721813" ry="39.721813" stroke="red" stroke-width="1" fill="none" /> 
+<ellipse cx="159.602699" cy="288.039532" rx="24.495255" ry="24.495255" stroke="red" stroke-width="1" fill="none" /> 
+<ellipse transform="translate(299.498584 201.814021) rotate(58.618967)" rx="40.121155" ry="39.759245" stroke="red" fill="none" stroke-width="1" />
+<line x1="503.994806" y1="0.481315" x2="505.166595" y2="31.512590"  fill="none" stroke ="blue" stroke-width="1" />
+<line x1="505.453658" y1="39.500943" x2="506.633707" y2="97.497279"  fill="none" stroke ="blue" stroke-width="1" />
+</svg>
