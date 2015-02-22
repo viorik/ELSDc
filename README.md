@@ -30,6 +30,7 @@ in the command line. This produces the executable called 'elsdc'.
 
 
 <b>EXECUTION</b>
+
 <b>./elsdc imagename</b>: runs ELSDc on the image specified by 'imagename'. This 
                    version works only with PGM images. This folder contains the
                    image 'shapes.pgm' for testing purposes.
@@ -70,6 +71,7 @@ The execution time for this sample image is about 4s on my Dell notebook.
 		   approximate the result of region grow.
 
 <b>polygon.c:</b>  	   defines a polygon structure (i.e. collection of rectangles).
+
 <b>ring.c:</b>	   defines a (circular or elliptical) ring structure. 
 
 <b>elsdc.c:</b>	   contains refinement and validation functions for different 
@@ -92,6 +94,7 @@ The execution time for this sample image is about 4s on my Dell notebook.
                    Gaussian filtering of an image.
 
 <b>misc.c:</b>	   contains general-purpose functions and constants definitions.
+
 <b>svg.c:</b>     	   functions to write the result in svg format.
 
 <b>DATASETS</b>
