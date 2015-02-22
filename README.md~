@@ -25,17 +25,14 @@ Version 3.2.1 was used.
 
 <b>COMPILATION</b>
 
-Modify in 'makefile' the path to liblapack if needed, and compile by typing 'make'
+Modify in 'makefile' the path to liblapack if needed, and compile by typing <b>make</b>
 in the command line. This produces the executable called 'elsdc'.
 
 
 <b>EXECUTION</b>
-<table>
-<tr>
-<td>./elsdc imagename </td>  <td>runs ELSDc on the image specified by 'imagename'. This 
+<b>./elsdc imagename</b>: runs ELSDc on the image specified by 'imagename'. This 
                    version works only with PGM images. This folder contains the
-                   image 'shapes.pgm' for testing purposes.<td>
-</table>   
+                   image 'shapes.pgm' for testing purposes.
 
 
 <b>OUTPUT</b>
