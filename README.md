@@ -51,7 +51,7 @@ in the command line. This produces the executable called 'elsdc'.
                    'label number_of_points x1 y1 x2 y2 x3 y3 ...'. 
 
 In the console, the numbers of features of each type are displayed. 
-To check the installation, run ./elsdc for 'shapes.pgm' image. The output should be
+To check the installation, run <b>./elsdc shapes.pgm</b>. The output should be
 similar to 'shapes_output.svg', and contain 66 ellipses and 145 polygons, whose 
 parameters are contained in 'out_ellipse.txt' and 'out_polygon.txt'.
 The execution time for this sample image is about 4s on my Dell notebook.  
