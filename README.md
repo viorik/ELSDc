@@ -39,10 +39,13 @@ in the command line. This produces the executable called 'elsdc'.
 
 <b>output.svg:</b>       contains the execution result in SVG format. 'shapes_output.svg' 
                    contains the result for the sample image 'shapes.pgm'.
+
 <b>labels.pgm:</b>       after execution, each pixel in this image is labelled with the 
                    label of the primitive to which it belongs.   
+
 <b>out_ellipse.txt:</b>  contains the parameters of the detected circular/elliptical 
                    arcs in the form 'label x_c y_c a b theta ang_start ang_end'.
+
 <b>out_polygon.txt:</b>  contains the parameters of the detected line segments, grouped 
                    into polygons, defined through contact points, in the form 
                    'label number_of_points x1 y1 x2 y2 x3 y3 ...'. 
@@ -58,25 +61,36 @@ The execution time for this sample image is about 4s on my Dell notebook.
 
 <b>main.c:</b>           contains the main() function; entry point into the application,
 		   calls IO functions and the detection function.
+
 <b>curve_grow.c:</b>	   contains functions for region grow (gather neighbour pixels 
                    that share the same gradient orientation) and curve grow (gather
                    regions that describe a convex and smooth contour).
+
 <b>rectangle.c:</b>	   defines a rectangle structure (i.e. segment with width) to 
 		   approximate the result of region grow.
+
 <b>polygon.c:</b>  	   defines a polygon structure (i.e. collection of rectangles).
 <b>ring.c:</b>	   defines a (circular or elliptical) ring structure. 
+
 <b>elsdc.c:</b>	   contains refinement and validation functions for different 
                    types of primitives (ellipse, circle, line segment). 
+
 <b>ellipse_fit.c:</b>	   contains functions to estimate a circle or an ellipse using 
                    pixels positions and their gradient orienatations.
+
 <b>iterator.c:</b>	   functions to count the number of aligned pixels inside a rectangle.
+
 <b>lapack_wrapper.c:</b> contains wrappers for lapack functions for linear system solve.
+
 <b>pgm.c:</b>            IO functions for pgm image format (the only format supported 
                    currently).
+
 <b>image.c:</b>	   defines structures for image representation and functions for 
                    gradient computation.
+
 <b>gauss.c:</b>	   defines a Gaussian kernel and contains functions to performs 
                    Gaussian filtering of an image.
+
 <b>misc.c:</b>	   contains general-purpose functions and constants definitions.
 <b>svg.c:</b>     	   functions to write the result in svg format.
 

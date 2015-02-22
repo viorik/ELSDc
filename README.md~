@@ -37,13 +37,13 @@ in the command line. This produces the executable called 'elsdc'.
 
 <b>OUTPUT</b>
 
-'output.svg'       contains the execution result in SVG format. 'shapes_output.svg' 
+<b>output.svg:</b>       contains the execution result in SVG format. 'shapes_output.svg' 
                    contains the result for the sample image 'shapes.pgm'.
-'labels.pgm'       after execution, each pixel in this image is labelled with the 
+<b>labels.pgm:</b>       after execution, each pixel in this image is labelled with the 
                    label of the primitive to which it belongs.   
-'out_ellipse.txt'  contains the parameters of the detected circular/elliptical 
+<b>out_ellipse.txt:</b>  contains the parameters of the detected circular/elliptical 
                    arcs in the form 'label x_c y_c a b theta ang_start ang_end'.
-'out_polygon.txt'  contains the parameters of the detected line segments, grouped 
+<b>out_polygon.txt:</b>  contains the parameters of the detected line segments, grouped 
                    into polygons, defined through contact points, in the form 
                    'label number_of_points x1 y1 x2 y2 x3 y3 ...'. 
 
@@ -56,36 +56,36 @@ The execution time for this sample image is about 4s on my Dell notebook.
 
 <b>SOURCE CODE FILES (folder 'src')</b>
 
-'main.c'           contains the main() function; entry point into the application,
+<b>main.c:</b>           contains the main() function; entry point into the application,
 		   calls IO functions and the detection function.
-'curve_grow.c'	   contains functions for region grow (gather neighbour pixels 
+<b>curve_grow.c:</b>	   contains functions for region grow (gather neighbour pixels 
                    that share the same gradient orientation) and curve grow (gather
                    regions that describe a convex and smooth contour).
-'rectangle.c'	   defines a rectangle structure (i.e. segment with width) to 
+<b>rectangle.c:</b>	   defines a rectangle structure (i.e. segment with width) to 
 		   approximate the result of region grow.
-'polygon.c'  	   defines a polygon structure (i.e. collection of rectangles).
-'ring.c'	   defines a (circular or elliptical) ring structure. 
-'elsdc.c'	   contains refinement and validation functions for different 
+<b>polygon.c:</b>  	   defines a polygon structure (i.e. collection of rectangles).
+<b>ring.c:</b>	   defines a (circular or elliptical) ring structure. 
+<b>elsdc.c:</b>	   contains refinement and validation functions for different 
                    types of primitives (ellipse, circle, line segment). 
-'ellipse_fit.c'	   contains functions to estimate a circle or an ellipse using 
+<b>ellipse_fit.c:</b>	   contains functions to estimate a circle or an ellipse using 
                    pixels positions and their gradient orienatations.
-'iterator.c'	   functions to count the number of aligned pixels inside a rectangle.
-'lapack_wrapper.c' contains wrappers for lapack functions for linear system solve.
-'pgm.c'            IO functions for pgm image format (the only format supported 
+<b>iterator.c:</b>	   functions to count the number of aligned pixels inside a rectangle.
+<b>lapack_wrapper.c:</b> contains wrappers for lapack functions for linear system solve.
+<b>pgm.c:</b>            IO functions for pgm image format (the only format supported 
                    currently).
-'image.c'	   defines structures for image representation and functions for 
+<b>image.c:</b>	   defines structures for image representation and functions for 
                    gradient computation.
-'gauss.c'	   defines a Gaussian kernel and contains functions to performs 
+<b>gauss.c:</b>	   defines a Gaussian kernel and contains functions to performs 
                    Gaussian filtering of an image.
-'misc.c'	   contains general-purpose functions and constants definitions.
-'svg.c'     	   functions to write the result in svg format.
+<b>misc.c:</b>	   contains general-purpose functions and constants definitions.
+<b>svg.c:</b>     	   functions to write the result in svg format.
 
 <b>DATASETS</b>
 
 We make available two datasets together with their ground truth for 
 quantitative evaluation of ellipse detectors:
 
-'Dataset1_SyntheticCircles' consists of 20 images, 500x500 pixels, containing 
+<b>Dataset1_SyntheticCircles</b> consists of 20 images, 500x500 pixels, containing 
 non-overlapping and overlapping circles. The images are corrupted with five 
 different levels of Gaussian noise, with five different noise realisations for 
 each noise level and for each image, resulting in 500 image instances in total. 
@@ -95,7 +95,7 @@ The file 'coord.txt' contains the ground truth circle parameters in the form:
 Ten images of pure Gaussian noise are also added (folder 'pureNoise/'), where 
 all detections are false positives.
 
-'Dataset2_CalibrationPatterns' contains (in folder 'images') 40 natural images 
+<b>Dataset2_CalibrationPatterns</b> contains (in folder 'images') 40 natural images 
 of calibration patterns that were included in Higuchi et al.’s package for 
 camera calibration 
 http://www.ri.cmu.edu/research_project_detail.html?project_id=617&menu_id=261. 
@@ -106,6 +106,6 @@ file in folder 'ground_truth' with the same name, containing the primitive
 parameters in the form:
 xcenter ycenter major_axis minor_axis theta.
 
-'Dataset3_RealImages' contains real images that were used to produce the results 
+<b>Dataset3_RealImages</b> contains real images that were used to produce the results 
 from the paper "A Contrario Joint Ellipse and Line Detection".
 
