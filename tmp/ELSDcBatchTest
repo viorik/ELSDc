@@ -1,0 +1,14 @@
+#!/bin/bash
+for file1 in /home/viorik/Work/Work_not_sync/thesecode/flickr/pgmSelect/*.pgm 
+do
+echo $file1
+bn=$(basename $file1)
+fn=${bn%.*}
+file2="/home/viorik/Work/Work_not_sync/thesecode/flickr/pgmSelect/resultsvg/$fn.svg"
+file3="/home/viorik/Work/Work_not_sync/thesecode/flickr/pgmSelect/resultpgm/$fn.pgm"
+file4="/home/viorik/Work/Work_not_sync/thesecode/flickr/pgmSelect/resultpng/$fn.png"
+./elsdc $file1 "/home/viorik/tmp.txt"
+convert "output.svg" $file4
+mv "output.svg" $file2
+mv "labels.pgm" $file3
+done
