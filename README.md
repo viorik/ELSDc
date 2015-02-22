@@ -1,4 +1,4 @@
-ELSDc -- Ellipse and Line Segment Detector, with Continuous validation
+<b>ELSDc -- Ellipse and Line Segment Detector, with Continuous validation</b>
 
 The source files included in this repository (folder 'src') contain the source 
 code of ELSDc (Ellipse and Line Segment Detector, with Continuous validation),
