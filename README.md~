@@ -53,9 +53,8 @@ Version 3.2.1 was used.
 
 <b>COMPILATION</b>
 
-'makefile' 	   example of makefile to compile the source code. If the paths 
-                   to the libraries are ok, a simple 'make' would compile the 
-                   code and produce the executable called 'elsdc'.
+Modify in 'makefile' the path to liblapack if needed, and compile by typing 'make'
+in the command line. This produces the executable called 'elsdc'.
 
 
 <b>EXECUTION</b>
@@ -89,12 +88,11 @@ The execution time for this sample image is about 4s on my Dell notebook.
 We make available two datasets together with their ground truth for 
 quantitative evaluation of ellipse detectors:
 
-'Dataset1_SyntheticCircles' Dataset1 consists of 20 images, 500x500 pixels, 
-containing non-overlapping and overlapping circles. The images are corrupted 
-with five different levels of Gaussian noise, with five different noise 
-realisations for each noise level and for each image, resulting in 500 image 
-instances in total. The file 'coord.txt' contains the ground truth circle 
-parameters in the form:
+'Dataset1_SyntheticCircles' consists of 20 images, 500x500 pixels, containing 
+non-overlapping and overlapping circles. The images are corrupted with five 
+different levels of Gaussian noise, with five different noise realisations for 
+each noise level and for each image, resulting in 500 image instances in total. 
+The file 'coord.txt' contains the ground truth circle parameters in the form:
 'pathToimageName.pgm'
 'xcenter1 ycenter1 radius1 xcenter2 ycenter2 radius2 xcenter3 ycenter3 radius3'.
 Ten images of pure Gaussian noise are also added (folder 'pureNoise/'), where 
