@@ -121,5 +121,5 @@ parameters in the form:
 xcenter ycenter major_axis minor_axis theta.
 
 <b>Dataset3_RealImages</b> contains real images that were used to produce the results 
-from the paper "A Contrario Joint Ellipse and Line Detection".
+from the paper "Joint A Contrario  Ellipse and Line Detection".
 
