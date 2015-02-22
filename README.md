@@ -30,11 +30,11 @@ in the command line. This produces the executable called 'elsdc'.
 
 
 <b>EXECUTION</b>
-<table>
+<table border="0">
 <tr>
 <td>./elsdc imagename </td>  <td>runs ELSDc on the image specified by 'imagename'. This 
                    version works only with PGM images. This folder contains the
-                   image 'shapes.pgm' for testing purposes.<td>
+                   image 'shapes.pgm' for testing purposes.</td>
 </table>   
 
 

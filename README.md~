@@ -23,6 +23,39 @@ later version.
 ELSDc requires CLAPACK/CBLAS library for some linear algebra computations. 
 Version 3.2.1 was used.
 
+<b>COMPILATION</b>
+
+Modify in 'makefile' the path to liblapack if needed, and compile by typing 'make'
+in the command line. This produces the executable called 'elsdc'.
+
+
+<b>EXECUTION</b>
+<table>
+<tr>
+<td>./elsdc imagename </td>  <td>runs ELSDc on the image specified by 'imagename'. This 
+                   version works only with PGM images. This folder contains the
+                   image 'shapes.pgm' for testing purposes.<td>
+</table>   
+
+
+<b>OUTPUT</b>
+
+'output.svg'       contains the execution result in SVG format. 'shapes_output.svg' 
+                   contains the result for the sample image 'shapes.pgm'.
+'labels.pgm'       after execution, each pixel in this image is labelled with the 
+                   label of the primitive to which it belongs.   
+'out_ellipse.txt'  contains the parameters of the detected circular/elliptical 
+                   arcs in the form 'label x_c y_c a b theta ang_start ang_end'.
+'out_polygon.txt'  contains the parameters of the detected line segments, grouped 
+                   into polygons, defined through contact points, in the form 
+                   'label number_of_points x1 y1 x2 y2 x3 y3 ...'. 
+
+In the console, the numbers of features of each type are displayed. 
+To check the installation, run ./elsdc for 'shapes.pgm' image. The output should be
+similar to 'shapes_output.svg', and contain 66 ellipses and 145 polygons, whose 
+parameters are contained in 'out_ellipse.txt' and 'out_polygon.txt'.
+The execution time for this sample image is about 4s on my Dell notebook.  
+
 
 <b>SOURCE CODE FILES (folder 'src')</b>
 
@@ -49,39 +82,6 @@ Version 3.2.1 was used.
                    Gaussian filtering of an image.
 'misc.c'	   contains general-purpose functions and constants definitions.
 'svg.c'     	   functions to write the result in svg format.
-
-
-<b>COMPILATION</b>
-
-Modify in 'makefile' the path to liblapack if needed, and compile by typing 'make'
-in the command line. This produces the executable called 'elsdc'.
-
-
-<b>EXECUTION</b>
-
-./elsdc imagename  runs ELSDc on the image specified by 'imagename'. This 
-                   version works only with PGM images. This folder contains the
-                   image 'shapes.pgm' for testing purposes.   
-
-
-<b>OUTPUT</b>
-
-'output.svg'       contains the execution result in SVG format. 'shapes_output.svg' 
-                   contains the result for the sample image 'shapes.pgm'.
-'labels.pgm'       after execution, each pixel in this image is labelled with the 
-                   label of the primitive to which it belongs.   
-'out_ellipse.txt'  contains the parameters of the detected circular/elliptical 
-                   arcs in the form 'label x_c y_c a b theta ang_start ang_end'.
-'out_polygon.txt'  contains the parameters of the detected line segments, grouped 
-                   into polygons, defined through contact points, in the form 
-                   'label number_of_points x1 y1 x2 y2 x3 y3 ...'. 
-
-In the console, the numbers of features of each type are displayed. 
-To check the installation, run ./elsdc for 'shapes.pgm' image. The output should be
-similar to 'shapes_output.svg', and contain 66 ellipses and 145 polygons, whose 
-parameters are contained in 'out_ellipse.txt' and 'out_polygon.txt'.
-The execution time for this sample image is about 4s on my Dell notebook.  
-
 
 <b>DATASETS</b>
 
