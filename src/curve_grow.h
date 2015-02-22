@@ -27,11 +27,9 @@
 #define CURVE_GROW_H
 
 void region2rect( PImageDouble gradmag, Point *reg, int start, int end,
-                         double reg_angle, Rectangle *rec, double prec, 
-                         FILE *fdebug );
+                         double reg_angle, Rectangle *rec, double prec );
 int curve_grow( PImageDouble gradmag, PImageDouble angles, 
                        PImageInt used, Point *reg, int *reg_size, 
                        double density_th, double prec, PolyRect *poly, 
-                       int *label, double *pext1, double *pext2, double *spir, 
-                       FILE *fdebug );
+                       int *label, double *pext1, double *pext2, double *spir );
 #endif

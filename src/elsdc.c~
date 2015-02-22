@@ -848,7 +848,7 @@ void ELSDc( PImageDouble in, int *ell_count, Ring **ell_out, int **ell_labels,
   int label_meaningful = 0;
   double spir;
   double foci[4];
-  /*int i;*/
+  int i;
 
   /* check parameters */
   if( (in == NULL) || (in->data == NULL) ) error("ELSDc: invalid input image.");

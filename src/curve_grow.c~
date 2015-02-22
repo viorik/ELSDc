@@ -600,6 +600,8 @@ static void subcurve( PImageDouble angles, PImageDouble gradmag, PImageInt used,
               *end = start;
               break;
             }
+          //write_rectangle( fdebug, &rec );
+
 
           /* Convexity rule imposes that consecutive rectangles turn in the same
              direction, hence must have the same sign for angle difference 
@@ -713,6 +715,8 @@ int curve_grow( PImageDouble gradmag, PImageDouble angles,
       return 0;
     }
   if( rec.len <= 2 ) return 0;
+
+  //write_rectangle( fdebug, &rec );
 
   /* Save size of first region; useful to compute second seed, after scanning
      first direction */
