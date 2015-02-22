@@ -1,5 +1,4 @@
-ELSDc -- Ellipse and Line Segment Detector, with Continuous validation
-
+ABOUT THIS PROJECT
 The source files included in this repository (folder 'src') contain the source 
 code of ELSDc (Ellipse and Line Segment Detector, with Continuous validation),
 described in 'Joint A Contrario Ellipse and Line Detection', by 
@@ -19,13 +18,11 @@ Software Foundation, either version 3 of the License, or (at your option) any
 later version. 
 
 REQUIREMENTS
-
 ELSDc requires CLAPACK/CBLAS library for some linear algebra computations. 
 Version 3.2.1 was used.
 
 
 SOURCE CODE FILES (folder 'src')
-
 'main.c'           contains the main() function; entry point into the application,
 		   calls IO functions and the detection function.
 'curve_grow.c'	   contains functions for region grow (gather neighbour pixels 
@@ -52,21 +49,18 @@ SOURCE CODE FILES (folder 'src')
 
 
 COMPILATION
-
 'makefile' 	   example of makefile to compile the source code. If the paths 
                    to the libraries are ok, a simple 'make' would compile the 
                    code and produce the executable called 'elsdc'.
 
 
 EXECUTION
-
 ./elsdc imagename  runs ELSDc on the image specified by 'imagename'. This 
                    version works only with PGM images. This folder contains the
                    image 'shapes.pgm' for testing purposes.   
 
 
 OUTPUT
-
 'output.svg'       contains the execution result in SVG format. 'shapes_output.svg' 
                    contains the result for the sample image 'shapes.pgm'.
 'labels.pgm'       after execution, each pixel in this image is labelled with the 
@@ -85,7 +79,6 @@ The execution time for this sample image is about 4s on my Dell notebook.
 
 
 DATASETS
-
 We make available two datasets together with their ground truth for 
 quantitative evaluation of ellipse detectors:
 
