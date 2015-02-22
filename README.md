@@ -8,7 +8,7 @@ of ELSD, published in
 'A Parameterless Line Segment and Elliptical Arc Detector with Enhanced 
 Ellipse Fitting', V. Patraucean, P. Gurdjos, R. Grompone von Gioi, ECCV2012.
 
-Corresponding author: viorica patraucean vpatrauc@gmail.com
+<b>Corresponding author</b>: viorica patraucean vpatrauc@gmail.com
 
 Test online the detector by uploading your own images at 
 http://dev.ipol.im/~jirafa/ipol_demo/elsdc/ (user: demo, pass:demo).
@@ -18,13 +18,13 @@ the terms of the GNU Affero General Public License as published by the Free
 Software Foundation, either version 3 of the License, or (at your option) any
 later version. 
 
-REQUIREMENTS
+<b>REQUIREMENTS</b>
 
 ELSDc requires CLAPACK/CBLAS library for some linear algebra computations. 
 Version 3.2.1 was used.
 
 
-SOURCE CODE FILES (folder 'src')
+<b>SOURCE CODE FILES (folder 'src')</b>
 
 'main.c'           contains the main() function; entry point into the application,
 		   calls IO functions and the detection function.
@@ -51,21 +51,21 @@ SOURCE CODE FILES (folder 'src')
 'svg.c'     	   functions to write the result in svg format.
 
 
-COMPILATION
+<b>COMPILATION</b>
 
 'makefile' 	   example of makefile to compile the source code. If the paths 
                    to the libraries are ok, a simple 'make' would compile the 
                    code and produce the executable called 'elsdc'.
 
 
-EXECUTION
+<b>EXECUTION</b>
 
 ./elsdc imagename  runs ELSDc on the image specified by 'imagename'. This 
                    version works only with PGM images. This folder contains the
                    image 'shapes.pgm' for testing purposes.   
 
 
-OUTPUT
+<b>OUTPUT</b>
 
 'output.svg'       contains the execution result in SVG format. 'shapes_output.svg' 
                    contains the result for the sample image 'shapes.pgm'.
@@ -84,7 +84,7 @@ parameters are contained in 'out_ellipse.txt' and 'out_polygon.txt'.
 The execution time for this sample image is about 4s on my Dell notebook.  
 
 
-DATASETS
+<b>DATASETS</b>
 
 We make available two datasets together with their ground truth for 
 quantitative evaluation of ellipse detectors:
