@@ -51,21 +51,21 @@ Version 3.2.1 was used.
 'svg.c'     	   functions to write the result in svg format.
 
 
-COMPILATION
+<b>COMPILATION</b>
 
 'makefile' 	   example of makefile to compile the source code. If the paths 
                    to the libraries are ok, a simple 'make' would compile the 
                    code and produce the executable called 'elsdc'.
 
 
-EXECUTION
+<b>EXECUTION</b>
 
 ./elsdc imagename  runs ELSDc on the image specified by 'imagename'. This 
                    version works only with PGM images. This folder contains the
                    image 'shapes.pgm' for testing purposes.   
 
 
-OUTPUT
+<b>OUTPUT</b>
 
 'output.svg'       contains the execution result in SVG format. 'shapes_output.svg' 
                    contains the result for the sample image 'shapes.pgm'.
@@ -84,7 +84,7 @@ parameters are contained in 'out_ellipse.txt' and 'out_polygon.txt'.
 The execution time for this sample image is about 4s on my Dell notebook.  
 
 
-DATASETS
+<b>DATASETS</b>
 
 We make available two datasets together with their ground truth for 
 quantitative evaluation of ellipse detectors:
