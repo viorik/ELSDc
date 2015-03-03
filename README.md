@@ -30,8 +30,9 @@ Version 3.2.1 was used.
 Compilation
 -----------
 
-Modify in `Makefile` the path to liblapack if needed, and compile by typing
-`make` in the command line. This produces the executable called `elsdc`.
+You may need to modify the file `Makefile` in the diretory `src` to include the
+path to liblapack. Then, you can compile by typing `make` in the command
+line. This produces the executable called `elsdc`.
 
 
 Execution
