@@ -17,12 +17,13 @@
 #  makefile - This file belongs to ELSDc project (Ellipse and Line Segment 
 #             Detector with continuous validation).
 
-STRICT= -fPIC -ansi -Wall -Wextra #-Werror
-OPT= -O3
+elsdc:
+	make -C src
+	mv src/elsdc .
 
-elsdc :	./src/main.c ./src/pgm.c ./src/svg.c ./src/elsdc.c ./src/gauss.c ./src/curve_grow.c ./src/polygon.c ./src/ring.c ./src/ellipse_fit.c ./src/rectangle.c ./src/iterator.c ./src/image.c ./src/lapack_wrapper.c ./src/misc.c 
-	cc $(OPT) $(STRICT) -o elsdc ./src/main.c ./src/pgm.c ./src/svg.c ./src/elsdc.c ./src/gauss.c ./src/curve_grow.c ./src/polygon.c ./src/ring.c ./src/ellipse_fit.c ./src/rectangle.c ./src/iterator.c ./src/image.c ./src/lapack_wrapper.c ./src/misc.c -llapack -lm
+test:
+	./elsdc shapes.pgm
 
-clean : 
+clean: 
 	rm elsdc
 
