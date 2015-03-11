@@ -1,7 +1,8 @@
 ELSDc -- Ellipse and Line Segment Detector, with Continuous validation
 ======================================================================
 
-V. Patraucean, P. Gurdjos, R. Grompone von Gioi, March 2015
+V. Patraucean, P. Gurdjos, R. Grompone von Gioi
+Version 1.0, March 2015
 
 ELSDc is an algorithm for joint ellipse and line segment detection on digital
 images. It is based on the a-contrario framework and should work without the
