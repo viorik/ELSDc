@@ -1,5 +1,5 @@
-ELSDc -- Ellipse and Line Segment Detector, with Continuous validation
-======================================================================
+ELSDc --- Ellipse and Line Segment Detector, with Continuous validation
+=======================================================================
 
 V. Patraucean, P. Gurdjos, R. Grompone von Gioi  
 (Corresponding author: Viorica Patraucean vpatrauc@gmail.com)  
@@ -21,7 +21,7 @@ An online demo of the algorithm is available, where you can upload your own
 images and test ELSDc on them:
 
 Demo: http://dev.ipol.im/~jirafa/ipol_demo/elsdc/  
-(user: demo, pass:demo)
+(user: demo, pass: demo)
 
 
 Requirements
