@@ -52,24 +52,30 @@ Output
 ------
 
 - `output.svg` contains the execution result in SVG format. `shapes_output.svg`
-               contains the result for the sample image `shapes.pgm`.
+               contains the expected result for the sample image `shapes.pgm`.
 
 - `labels.pgm` after execution, each pixel in this image is labelled with the
-               label of the primitive to which it belongs.
+               label of the primitive to which it belongs. `shapes_labels.pgm`
+               contains the expected result for the sample image `shapes.pgm`.
 
 - `out_ellipse.txt` contains the parameters of the detected circular/elliptical
                    arcs in the form `label x_c y_c a b theta ang_start
-                   ang_end`.
+                   ang_end`. `shapes_out_ellipse.txt` contains the expected
+                   result for the sample image `shapes.pgm`.
 
 - `out_polygon.txt` contains the parameters of the detected line segments,
                    grouped into polygons, defined through contact points, in
                    the form `label number_of_points x1 y1 x2 y2 x3 y3 ...`.
+                   `shapes_out_polygon.txt` contains the expected result for
+                   the sample image `shapes.pgm`.
 
 In the console, the numbers of features of each type are displayed. To check
 the installation, run `./elsdc shapes.pgm`. The output should be similar to
-`shapes_output.svg`, and contain 66 ellipses and 145 polygons, whose parameters
-are contained in `out_ellipse.txt` and `out_polygon.txt`. The execution time
-for this sample image is about 4s on my Dell notebook.
+ones in `shapes_output.svg`, `shapes_labels.pgm`, `shapes_out_ellipse.txt`,
+`shapes_out_polygon.txt`, consisting in 66 ellipses and 145 polygons. The exact
+coordinate values may differ slightly due rounding error differences in
+different systems. The execution time for `shapes.pgm` is about 4s on a Dell
+notebook.
 
 
 Source Code Files
