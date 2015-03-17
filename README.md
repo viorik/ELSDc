@@ -11,7 +11,7 @@ need for parameter tuning. The algorithm is described in the following
 manuscript:
 
   "Joint A Contrario Ellipse and Line Detection"
-  by Viorica Patraucean, Pierre Gurdjos, and Rafael Grompone von Gioi.
+  by V. Patraucean, P. Gurdjos, and R. Grompone von Gioi.
 
 
 Demo
