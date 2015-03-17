@@ -10,8 +10,8 @@ images. It is based on the a-contrario framework and should work without the
 need for parameter tuning. The algorithm is described in the following
 manuscript:
 
-  "Joint A Contrario Ellipse and Line Detection"
-  by V. Patraucean, P. Gurdjos, and R. Grompone von Gioi.
+  "Joint A Contrario Ellipse and Line Detection",
+  V. Patraucean, P. Gurdjos, and R. Grompone von Gioi.
 
 
 Demo
