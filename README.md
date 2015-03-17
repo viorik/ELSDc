@@ -20,7 +20,7 @@ Demo
 An online demo of the algorithm is available, where you can upload your own
 images and test ELSDc on them:
 
-Demo: http://dev.ipol.im/~jirafa/ipol_demo/elsdc/
+Demo: http://dev.ipol.im/~jirafa/ipol_demo/elsdc/  
 (user: demo, pass:demo)
 
 
