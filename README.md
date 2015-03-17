@@ -1,5 +1,5 @@
-ELSDc --- Ellipse and Line Segment Detector, with Continuous validation
-=======================================================================
+ELSDc: Ellipse and Line Segment Detector, with Continuous validation
+====================================================================
 
 V. Patraucean, P. Gurdjos, R. Grompone von Gioi  
 (Corresponding author: Viorica Patraucean vpatrauc@gmail.com)  
