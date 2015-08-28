@@ -507,6 +507,7 @@ static double circ_ring_improve( PImageDouble angles, PImageInt used,
             }            
         }  
     /*} */  
+  if ( ! check_circ_ring(cring) ) return -logNT_ell;
   return log_nfa;
 }
 
@@ -717,6 +718,7 @@ static double ell_ring_improve( PImageDouble angles, PImageInt used,
             }            
         }  
    /* } */  
+  if ( ! check_ell_ring(ering) ) return -logNT_ell;
   return log_nfa;
 }   
 

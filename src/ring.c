@@ -73,6 +73,35 @@ void swap_ring( Ring *r )
   r->full = 1;
 }
 
+/*----------------------------------------------------------------------------*/
+/** Check if circle is valid: radius must be positive.
+ */
+int check_circ_ring( Ring *cring )
+{
+  /* check parameters */
+  if( cring == NULL ) error("check_circ_ring: invalid ring.");
+
+  /* reject if degenerate ellipse */
+  if( cring->wmin*cring->wmax > 0 ) return FALSE;
+  return TRUE;
+}
+
+
+/*----------------------------------------------------------------------------*/
+/** Check if ellipse ring is valid: wmin and wmax have different signs and 
+    have reasonably small values.
+ */
+int check_ell_ring( Ring *ering )
+{
+  /* check parameters */
+  if( ering == NULL ) error("check_ell_ring: invalid ring.");
+
+  /* reject if degenerate ellipse */
+  if( ering->wmin*ering->wmax > 0 ) return FALSE;
+  return TRUE;
+}
+
+
 
 /*----------------------------------------------------------------------------*/
 /** Check if circle is valid: radius must be positive.

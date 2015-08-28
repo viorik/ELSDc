@@ -467,7 +467,7 @@ static void px_seed( PImageDouble angles, PImageInt used, Rectangle *rec,
   int xx, yy, i;
   int adr;
   int idx_buff0 = *idx_buff; 
-  double width = rec->width/2.0;
+  double width;
   double l1, l2, l;
   
   /* Check parameters */
@@ -478,6 +478,8 @@ static void px_seed( PImageDouble angles, PImageInt used, Rectangle *rec,
   if( rec == NULL ) error("px_seed: invalid input rectangle.");
   if( reg == NULL ) error("px_seed: invalid input region.");
   if( end <= start ) error("px_seed: invalid region size.");
+
+  width = rec->width/2.0;
 
   /* Distance between rectangle centre and extreme point; a new point can be 
      a seed only if it is at a distance farther than this */ 

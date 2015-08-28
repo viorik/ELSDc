@@ -103,8 +103,8 @@ void write_svg_circ_arc( FILE *fsvg, Ring *cring )
   /* compute angles delimiting the arc */
   ang_start = atan2( cring->y1 - cring->cy, cring->x1 - cring->cx); 
   ang_end   = atan2( cring->y2 - cring->cy, cring->x2 - cring->cx);
- 
-  /* if (almost) complete circle, write full circle, not an arc */
+  
+/* if (almost) complete circle, write full circle, not an arc */
   C = M_2__PI * cring->ax;
   if( (cring->full) || ( (angle_diff( ang_start, ang_end ) 
                            < M_2__PI * SQRT2 / C)
@@ -136,7 +136,6 @@ void write_svg_circ_arc( FILE *fsvg, Ring *cring )
       if( ang_end < ang_start ) ang_end += M_2__PI;
 
       if( (ang_end - ang_start) > M_PI) fa = 1;
-     
       /* write starting and ending points, axes, orientation, fa, fs */
       fprintf( fsvg,"<path d=\"M %f,%f A%f,%f %f %d,%d %f,%f\"",
                x1, y1, cring->ax, cring->ax, 0.0, fa, fs, x2, y2 );
