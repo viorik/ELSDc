@@ -5,7 +5,7 @@ V. Patraucean, P. Gurdjos, R. Grompone von Gioi
 (Corresponding author: Viorica Patraucean vpatrauc@gmail.com)  
 Version 0.9, March 2015
 
-ELSDc is an algorithm for joint ellipse and line segment detection on digital
+ELSDc is an algorithm for joint ellipse and line segment detection in digital
 images. It is based on the a-contrario framework and should work without the
 need for parameter tuning. The algorithm is described in the following
 manuscript:
@@ -18,7 +18,7 @@ Demo
 ----
 
 An online demo of the algorithm is available, where you can upload your own
-images and test ELSDc on them:
+images and run ELSDc:
 
 Demo: http://dev.ipol.im/~jirafa/ipol_demo/elsdc/  
 (user: demo, pass: demo)
@@ -34,7 +34,7 @@ Version 3.2.1 was used.
 Compilation
 -----------
 
-You may need to modify the file `Makefile` in the diretory `src` to include the
+You may need to modify the file `Makefile` in the directory `src` to include the
 path to liblapack. Then, you can compile by typing `make` in the command
 line. This produces the executable called `elsdc`.
 
@@ -68,11 +68,11 @@ Output
                    `shapes_out_polygon.txt` contains the expected result for
                    the sample image `shapes.pgm`.
 
-The command will print and the end of the execution the numbers of features of
+The command will print at the end of the execution the numbers of features of
 each type found. To check the installation, run `./elsdc shapes.pgm`. The
-output should be similar to ones in `shapes_output.svg`, `shapes_labels.pgm`,
-`shapes_out_ellipse.txt` and `shapes_out_polygon.txt`. It should found 66
-ellipses and 145 polygons. The exact coordinate values may differ slightly due
+output should be similar to the one in `shapes_output.svg`, `shapes_labels.pgm`,
+`shapes_out_ellipse.txt` and `shapes_out_polygon.txt`. It should find 66
+ellipses and 145 polygons. The exact coordinate values may differ slightly due to
 rounding error differences in different systems. The execution time for
 `shapes.pgm` is about 4s on a Dell notebook.
 
