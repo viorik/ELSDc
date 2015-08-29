@@ -72,9 +72,9 @@ The command will print at the end of the execution the numbers of features of
 each type found. To check the installation, run `./elsdc shapes.pgm`. The
 output should be similar to the one in `shapes_output.svg`, `shapes_labels.pgm`,
 `shapes_out_ellipse.txt` and `shapes_out_polygon.txt`. It should find 66
-ellipses and 145 polygons. The exact coordinate values may differ slightly due to
+ellipses and 142 polygons. The exact coordinate values may differ slightly due to
 rounding error differences in different systems. The execution time for
-`shapes.pgm` is about 4s on a Dell notebook.
+`shapes.pgm` is about 1.4s on a Dell notebook.
 
 
 Source Code Files

@@ -257,6 +257,9 @@ static double poly_improve( PImageDouble angles, PImageInt used, PolyRect *poly,
   *size_local_buff = 0;
   wmax = poly->wmax;
   wmin = poly->wmin;
+  /* check if polygon valid: wmin and wmax must have opposite sign */
+  if ( wmin*wmax >0 ) return -logNT_poly;
+
   log_nfa = poly_nfa( angles, used, poly, wmin, wmax, *local_buff, 
                       size_local_buff, logNT_poly );
      
@@ -454,6 +457,7 @@ static double circ_ring_improve( PImageDouble angles, PImageInt used,
     error("circ_ring_improve: 'size_local_buff' must be non null.");
   if( *label <= 1 ) error("circ_ring_improve: forbidden label value.");
 
+  if ( ! check_circ_ring(cring) ) return -logNT_ell;
   (*label)++;
   *size_local_buff = 0;
   log_nfa = circ_ring_nfa( angles, used, cring, x, y, grad_dir, *local_buff, 
@@ -665,6 +669,7 @@ static double ell_ring_improve( PImageDouble angles, PImageInt used,
     error("ell_ring_improve: 'size_local_buff' must be non null.");
   if( *label <= 1 ) error("ell_ring_improve: forbidden label value.");
 
+  if ( ! check_ell_ring(ering) ) return -logNT_ell;
   (*label)++;
   *size_local_buff = 0;
   log_nfa = ell_ring_nfa( angles, used, ering, foci, x, y, grad_dir, 
