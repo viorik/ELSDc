@@ -24,6 +24,11 @@ Demo: http://dev.ipol.im/~jirafa/ipol_demo/elsdc/
 (user: demo, pass: demo)
 
 
+Python interface
+----
+Available [here](https://github.com/patricknaughton01/ELSDc). Thank you, Patrick!
+
+
 Requirements
 ------------
 
